@@ -11,4 +11,5 @@ app.add_url_rule('/transaction/<int:id>/delete', view_func=views.transaction_del
 app.add_url_rule('/register', view_func=views.register_view, methods=['GET', "POST"], endpoint='register')
 app.add_url_rule('/login', view_func=views.login_view, methods=['GET', "POST"], endpoint='login')
 app.add_url_rule('/logout', view_func=views.logout_view, endpoint='logout')
+app.add_url_rule('/logout', view_func=views.logout_view, endpoint='logout')
 

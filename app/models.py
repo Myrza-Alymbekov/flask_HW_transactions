@@ -21,6 +21,7 @@ class Transactions(db.Model):
     unit = db.Column(db.String)
     subject = db.Column(db.String)
 
+
     def __repr__(self):
         return self.period
 
